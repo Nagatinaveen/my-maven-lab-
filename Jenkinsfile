@@ -10,9 +10,9 @@ pipeline {
             steps {
                 checkout scm
                 echo "Latest commit:"
-                sh 'git log -1 --oneline'
+                bat 'git log -1 --oneline'
                 echo "Changed files:"
-                sh 'git log -1 --name-only'
+                bat 'git log -1 --name-only'
             }
         }
 
