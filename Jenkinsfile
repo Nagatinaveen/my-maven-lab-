@@ -3,7 +3,7 @@ pipeline {
 
     tools {
         maven 'MAVEN-HOME'    // Use the actual Maven install name
-        jdk 'JDK17'           // Use the actual JDK install name
+        jdk 'JDK21'           // Use the actual JDK install name
     }
 
     stages {
