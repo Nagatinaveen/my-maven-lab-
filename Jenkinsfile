@@ -22,11 +22,7 @@ pipeline {
                 bat 'mvn test'
             }
         }
-        stage('Deploy') {
-            steps {
-                echo 'Deploy stage (customize as needed)'
-            }
-        }
+        
     }
 
     post {
