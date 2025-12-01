@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        maven 'MAVEN-HOME'    // Use the actual Maven install name
+        maven 'maven_3.9.111'    // Use the actual Maven install name
         jdk 'JDK21'           // Use the actual JDK install name
     }
 
